@@ -2,7 +2,6 @@
 
 require 'fileutils'
 PLUGIN_ROOT = File.dirname(__FILE__)
-RAILS_ROOT = File.join(PLUGIN_ROOT, '..','..','..')
 
 # Workaround a problem with script/plugin and http-based repos.
 # See http://dev.rubyonrails.org/ticket/8189
