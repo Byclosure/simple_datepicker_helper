@@ -1,6 +1,8 @@
 # Install hook code here
 
 require 'fileutils'
+PLUGIN_ROOT = File.dirname(__FILE__)
+
 # Workaround a problem with script/plugin and http-based repos.
 # See http://dev.rubyonrails.org/ticket/8189
 Dir.chdir(Dir.getwd.sub(/vendor.*/, '')) do
