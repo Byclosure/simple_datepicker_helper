@@ -10,6 +10,7 @@ Dir.chdir(Dir.getwd.sub(/vendor.*/, '')) do
 
 
   FileUtils.cp(File.join(PLUGIN_ROOT,"assets", "simple_datepicker.js"), File.join(RAILS_ROOT,"public","javascripts"))
+  FileUtils.cp(File.join(PLUGIN_ROOT,"assets", "runner.js"), File.join(RAILS_ROOT,"public","javascripts","simple_datepicker_runner.js"))
   FileUtils.cp(File.join(PLUGIN_ROOT,"assets", "simple_datepicker.css"), File.join(RAILS_ROOT,"public","stylesheets"))
 
 end

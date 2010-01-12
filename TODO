@@ -1,0 +1,2 @@
+* Test runner.js
+  - I18n: $$("meta[name='lang']").first  (2nd option)

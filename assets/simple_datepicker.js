@@ -393,4 +393,3 @@ DatePicker.prototype	= {
   $(this._id_datepicker_hdr).update('&nbsp;&nbsp;&nbsp;'+this.getMonthLocale(this._current_mon)+'&nbsp;'+this._current_year+'&nbsp;&nbsp;&nbsp;');
  }
 };
-
